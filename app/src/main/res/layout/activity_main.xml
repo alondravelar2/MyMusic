@@ -1,0 +1,60 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:paddingLeft="140dp"
+        android:paddingBottom="10dp"
+        android:text="Genres"
+        android:textSize="40dp"
+        android:onClick="openGenresActivity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:text="Artists"
+        android:textSize="40dp"
+        android:paddingLeft="140dp"
+        android:paddingBottom="10dp"
+        android:onClick="openArtistsActivity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:paddingLeft="140dp"
+        android:paddingBottom="10dp"
+        android:text="Albums"
+        android:textSize="40dp"
+        android:onClick="openAlbumsActivity"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_green_light"
+        android:paddingLeft="140dp"
+        android:paddingBottom="10dp"
+        android:text="Playlists"
+        android:textSize="40dp"
+        android:onClick="openPlaylistsActivity"
+        />
+
+</LinearLayout>
+</ScrollView>
