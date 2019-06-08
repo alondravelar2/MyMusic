@@ -3,4 +3,7 @@
     android:layout_height="wrap_content"
     android:divider="#000"
     android:dividerHeight="1dp"
-    xmlns:android="http://schemas.android.com/apk/res/android" />
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    />
